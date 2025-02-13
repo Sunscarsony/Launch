@@ -1,0 +1,87 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #0d001a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+@font-face {
+  font-family: "Floral";
+  src: url("/font/floral.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+#igni {
+  background-image: repeating-linear-gradient(90deg,
+      #a2682a 0,
+      #be8c3c 8%,
+      #be8c3c 18%,
+      #d3b15f 27%,
+      #faf0a0 35%,
+      #ffffc2 40%,
+      #faf0a0 50%,
+      #d3b15f 58%,
+      #be8c3c 67%,
+      #b17b32 77%,
+      #bb8332 83%,
+      #d4a245 88%,
+      #e1b453 93%,
+      #a4692a);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, 0.3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+  font-size: 3rem;
+  font-family: 'Floral', sans-serif;
+  margin-bottom: 40px;
+}
+
+#igniBtn {
+  background-image: repeating-linear-gradient(90deg,
+      #a2682a 0,
+      #be8c3c 8%,
+      #be8c3c 18%,
+      #d3b15f 27%,
+      #faf0a0 35%,
+      #ffffc2 40%,
+      #faf0a0 50%,
+      #d3b15f 58%,
+      #be8c3c 67%,
+      #b17b32 77%,
+      #bb8332 83%,
+      #d4a245 88%,
+      #e1b453 93%,
+      #a4692a);
+  background-size: 150%;
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+  padding: 15px 30px;
+  /* Increased padding for a larger button */
+  border-radius: 50px;
+  /* Rounded corners */
+  font-size: 1.5rem;
+  /* Adjust font size for better appearance */
+  color: white;
+  /* Ensure text is visible */
+  border: none;
+  /* Remove default border */
+  cursor: pointer;
+  /* Change cursor to indicate it's clickable */
+  transition: all 0.3s ease;
+  padding-left: 60px;
+  padding-right: 60px;
+}
