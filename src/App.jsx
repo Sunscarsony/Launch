@@ -16,7 +16,10 @@ function App() {
     <div className={playVideo ? "video-container" : "container"}>
       {!playVideo ? (
         <div className="center-content">
-          <h1 id="igni">Welcome to Our Site</h1>
+          {/* Logo added here */}
+          <img src="/ignitia-logo.png" alt="Logo" id="logo" />
+          
+          <h1 id="igni">We are live</h1>
           <button id="igniBtn" onClick={handleLaunch} className="launch-btn">
             <span style={{color: "black"}}>Launch</span>
           </button>

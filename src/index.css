@@ -46,7 +46,7 @@ body {
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 1px rgba(255, 200, 0, 0.3));
   animation: MoveBackgroundPosition 6s ease-in-out infinite;
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: 'Floral', sans-serif;
   margin-bottom: 40px;
 }

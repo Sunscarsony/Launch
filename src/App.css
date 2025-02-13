@@ -42,6 +42,12 @@ body {
   /* Ensure content does not overflow */
 }
 
+#logo {
+  display: block;
+  margin: 0 auto;
+  width: 240px;
+}
+
 .container::before {
   top: -50px;
   left: -50px;
