@@ -45,8 +45,16 @@ body {
 #logo {
   display: block;
   margin: 0 auto;
-  width: 240px;
+  width: 280px;
 }
+
+#logoNew {
+  display: block;
+  margin: 0 auto;
+  width: 120px;
+  top: 30px;
+}
+
 
 .container::before {
   top: -50px;
